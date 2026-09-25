@@ -45,4 +45,4 @@ genlayer schema <CONTRACT_ADDRESS>
 genlayer code <CONTRACT_ADDRESS>
 ```
 
-Direct tests exercise the leader path and deterministic state machine, **not** validator consensus. A live finalized `resolve_round` transaction is required to evidence the exact equivalence path. See [proof matrix](PROOF_MATRIX.md).
+Direct tests exercise the leader path and deterministic state machine, **not** validator consensus. Two finalized StudioNet rounds demonstrate live comparison: [contract](https://explorer-studio.genlayer.com/address/0x55BeEC78b334bCB0c55A033Edfd965a349826423), [proof matrix](PROOF_MATRIX.md), [full lifecycle](LIVE_PROOFS.md). The deployed source matches this repository's contract source exactly.
